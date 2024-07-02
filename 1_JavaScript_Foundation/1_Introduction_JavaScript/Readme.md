@@ -1,6 +1,6 @@
 <h1> Introduction to Programming </h1>
 
-<h2>Problem Solving </h2>
+<h2>A: Problem Solving </h2>
 
 Suppose you have a problem and you need to find the solution of this problem So what you will take one by one to solve this problem . That is problem solving
 Basically : "Finding a solution to a problem"
@@ -32,4 +32,4 @@ If you do anyone you will easily get to school
 
 "Its about thinking outside of the box, and how you just try to get to a solution by thinking and being creative and getting to the solution"
 
-<h2>What is Programming</h2>
+<h2>B: What is Programming</h2>
