@@ -57,3 +57,23 @@ We are not writing a actual program but you are writing it in a human readable l
 So, If you have a problem statement and you are seeking a soltion then you can write a solution in a normal and human readable language and not in a actual programming language. Later on you can convert that human readable language statements into programming code that is called as Pseudo Code
 
 Suppose you are explaining your friend any solution but not in a actual programming syntax so you are not actually writing the programming syntax but you are explaining a solution to your friend in a himan readable language so that is "Pseudo Code"
+
+"Basically , a logic of a program in a clear and understandable way, making it easier to translate into actual code"
+
+In a simple human language we have written the Pseudo Code
+
+and Pseudo Code is "TEXT-BASED in a human readable language"
+
+<h4>Flow Chart </h4>
+
+It is a visual representation of the same thing (what we design or do or code) using shapes and symbols
+
+<ul> 
+  <li>Oval : Used for start and end point</li>
+  <li>Arrows : Line collector that shows the relationship between the representative shapes</li>
+  <li>Shapes (Parallelogram) : Represents input and output </li>
+  <li>Shapes (Rectangle) : Represents process </li>
+  <li>Shapes (Diamionds) : Represents decisions </li>
+</ul>
+
+And Both Pseudo Code and Flow Charts are valuable toolsin early stages of the program design
