@@ -50,7 +50,7 @@ We have to get a solution to a problem through a computer and so we have to inst
 
 <h2>C : Pseudo Code and Flow Charts </h2>
 
-<h5> Pseudo Code :</h5> It is planning a computer program in a natural language + Informal programming language and Statements
+<h4> Pseudo Code :</h4> It is planning a computer program in a natural language + Informal programming language and Statements
 
 We are not writing a actual program but you are writing it in a human readable language like someone who don't understand coding they can also understand that what we are trying to acheive
 
