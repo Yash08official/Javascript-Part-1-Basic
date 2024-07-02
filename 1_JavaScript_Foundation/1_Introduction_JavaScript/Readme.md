@@ -33,3 +33,17 @@ If you do anyone you will easily get to school
 "Its about thinking outside of the box, and how you just try to get to a solution by thinking and being creative and getting to the solution"
 
 <h2>B: What is Programming</h2>
+
+It is also a problem solving
+
+When you write a code in a computer, you are basically providing a set of instructions to solve some complex tasks
+
+It is a digital problem solver
+Here to tell the computer how to naviagte
+how to solve the complex tasks and produces the results which we want
+
+It is basically providing instructions to computer to perform a specific tasks and it involves writing a set of instructions in a language which computer can understand and this set of instructions are called "CODE".
+
+We have to get a solution to a problem through a computer and so we have to instruct the computer, we have provide some instructions to computer to get a solution to a problem
+
+"PROGRAMMING is a art and science of giving instructions to a computer"
