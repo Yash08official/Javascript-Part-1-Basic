@@ -29,3 +29,37 @@ console.log("addition :", addition);
 let x = 10;
 
 In this we assign value "10" to the variable "x" by using assignment operator "= (equals to)"
+
+let y = 20
+x = x+y;
+
+                        // "x+=y";  or "x = x+y"; both are same
+                        // "x-=y";  or "x = x-y"; both are same
+                        // "x*=y";  or "x = x*y"; both are same
+                        // "x%=y";  or "x = x%y"; both are same
+                        // "x/=y";  or "x = x/y"; both are same
+                        // "x**=y";  or "x = x**y"; both are same
+
+console.log("sum", x);
+
+NOW, Arithematic operator use on strings
+
+let firstName = "Yash";
+let lastName = "Wasankar";
+
+If I want to concatenate firstName and lastName I can simply write
+
+firstName+=lastName
+
+I print it 
+
+console.log("fullName :",firstName);
+
+NOW, Perform addition string and number
+
+const age = 20;
+const string = "is my age"
+
+const statement  = age+string
+
+console.log("statement :" statement)
