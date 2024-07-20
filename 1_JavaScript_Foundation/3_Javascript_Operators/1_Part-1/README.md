@@ -51,7 +51,7 @@ If I want to concatenate firstName and lastName I can simply write
 
 firstName+=lastName
 
-I print it 
+I print it
 
 console.log("fullName :",firstName);
 
@@ -60,6 +60,38 @@ NOW, Perform addition string and number
 const age = 20;
 const string = "is my age"
 
-const statement  = age+string
+const statement = age+string
 
 console.log("statement :" statement)
+
+<h2>Comparison Operators :</h2>
+
+let age = 20;
+
+const adult = age>18;
+
+console.log("Adult",adult);
+
+let x = 10;
+
+let y = 30;
+
+const isLessThan = x>y;
+
+console.log("is",isLessThan);
+
+We have also double and triple equals to (== && ===)
+
+We have also not double and not triple equals to(!= && !==)
+
+let num1 = 10;
+let num2 = 20;
+
+console.log("Double Equals :", num1==num2); ::- only comapre values
+console.log("Triple Equals :", num1===num2); ::- compare values and types of variable
+
+let num3 = 10;
+let num4 = "10";
+
+console.log("Double Equals :", num3 != num4); ::- only comapre values
+console.log("Triple Equals :", num3 !== num4);::- compare values and types of variable

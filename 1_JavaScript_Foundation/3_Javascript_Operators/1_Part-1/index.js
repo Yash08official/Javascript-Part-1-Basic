@@ -32,9 +32,41 @@ console.log("fullName :", firstName);
 
 //Perform addition string and number
 
-const age = 21 ;
-const string = "is my age"
+const age = 21;
+const string = "is my age";
 
-const statement  = age+string
+const statement = age + string;
 
-console.log("statement is :", statement)
+console.log("statement is :", statement);
+
+// 3. Comparison Operator
+
+let age1 = 20;
+
+const adult = age1 > 18;
+
+console.log("Adult", adult);
+
+let c = 10;
+
+let d = 30;
+
+const isLessThan = c > d;
+
+console.log("is", isLessThan);
+
+// == && ===
+
+let num1 = "20";
+let num2 = 20;
+
+console.log("Double Equals :", num1 == num2); // only comapre values
+console.log("Triple Equals :", num1 === num2); // compare values and types of variable
+
+// != && !==
+
+let num3 = 10;
+let num4 = "10";
+
+console.log("Double Equals :", num3 != num4); // only comapre values
+console.log("Triple Equals :", num3 !== num4); // compare values and types of variable
