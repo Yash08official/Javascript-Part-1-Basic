@@ -8,10 +8,9 @@ There are different types of operators :
 <li>Comparison Operators</li>
 <li>Logical Operators</li>
 <li>Assignment Operators</li>
-<li>Ternary Operators</li></ul>
+<li>Ternary Operators</li>
 <li>Conditional Operators</li>
 <li>Type Operators</li></ul>
-
 
 <h2>Arithmetic Operators :</h2>
 
@@ -113,3 +112,15 @@ we have typeof operator which tells us the type of the variable which we are usi
 
 let r ="ramesh";
 console.log(typeof(r));
+
+<h2>Ternary Operators</h2>
+
+If I want to comapre the person adult or not
+
+let age2 = 23;
+let age3 = 12;
+
+It is like if () : else (); see below ::->
+
+age2 > 18 ? console.log("Person is Adult") : console.log("Person is not Adult");
+age3 > 18 ? console.log("Person is Adult") : console.log("Person is not Adult");

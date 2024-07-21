@@ -83,4 +83,13 @@ console.log("It is true or false :", !(h === 23)); // not equal to
 //  5. Typeof operator
 
 let r = "ramesh";
-console.log("Type of the variable is :",typeof (r));
+console.log("Type of the variable is :", typeof r);
+
+// 6. //  5. Ternary operator
+
+let age2 = 23;
+let age3 = 12;
+
+// if () : else ();
+age2 > 18 ? console.log("Person is Adult") : console.log("Person is not Adult");
+age3 > 18 ? console.log("Person is Adult") : console.log("Person is not Adult");
