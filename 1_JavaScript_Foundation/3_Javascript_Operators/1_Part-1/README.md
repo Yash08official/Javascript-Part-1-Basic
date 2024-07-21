@@ -10,6 +10,7 @@ There are different types of operators :
 <li>Assignment Operators</li>
 <li>Conditional Operators</li>
 <li>Type Operators</li></ul>
+<li>Ternary Operators</li></ul>
 
 <h2>Arithmetic Operators :</h2>
 
@@ -95,3 +96,19 @@ let num4 = "10";
 
 console.log("Double Equals :", num3 != num4); ::- only comapre values
 console.log("Triple Equals :", num3 !== num4);::- compare values and types of variable
+
+<h2>Logical Operators :</h2>
+
+It used to define the logic between variables and values
+
+let x =78;
+let y =23;
+
+and i am check condition "x>10 "&&" y<100"
+
+<h2>Type Operators :</h2>
+
+we have typeof operator which tells us the type of the variable which we are using
+
+let r ="ramesh";
+console.log(typeof(r));

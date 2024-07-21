@@ -39,7 +39,7 @@ const statement = age + string;
 
 console.log("statement is :", statement);
 
-// 3. Comparison Operator
+// 3.Comparison Operator
 
 let age1 = 20;
 
@@ -70,3 +70,15 @@ let num4 = "10";
 
 console.log("Double Equals :", num3 != num4); // only comapre values
 console.log("Triple Equals :", num3 !== num4); // compare values and types of variable
+
+// 4. Logical Operators : (&&,||,)
+
+let h = 23;
+let j = 34;
+
+console.log("It is true or false :", h > 10 && j < 100); // and
+console.log("It is true or false :", h > 10 || j < 100); //or
+console.log("It is true or false :", !(h === 23)); // not equal to
+
+
+//  5. Typeof operator
