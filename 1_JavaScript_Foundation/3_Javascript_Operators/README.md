@@ -8,9 +8,10 @@ There are different types of operators :
 <li>Comparison Operators</li>
 <li>Logical Operators</li>
 <li>Assignment Operators</li>
+<li>Ternary Operators</li></ul>
 <li>Conditional Operators</li>
 <li>Type Operators</li></ul>
-<li>Ternary Operators</li></ul>
+
 
 <h2>Arithmetic Operators :</h2>
 

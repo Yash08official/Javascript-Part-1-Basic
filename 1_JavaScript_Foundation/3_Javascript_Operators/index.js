@@ -80,5 +80,7 @@ console.log("It is true or false :", h > 10 && j < 100); // and
 console.log("It is true or false :", h > 10 || j < 100); //or
 console.log("It is true or false :", !(h === 23)); // not equal to
 
-
 //  5. Typeof operator
+
+let r = "ramesh";
+console.log("Type of the variable is :",typeof (r));
