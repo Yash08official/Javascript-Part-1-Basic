@@ -1,0 +1,28 @@
+<h1>Conditional Statements </h1>
+
+Sometimes you need to execute a piece of code based on some decision , so whenever you have to take some decision there you can used conditional statements
+
+Conditional statements are ::->
+
+<ul>
+<li>If-else</li> : 
+  To execute a block or piece of code "if" condition is true Otherwise you can use "else" to execute a block of code if my condition is false
+
+<li>Else-if</li> : 
+  To execute any new condition or check any new condition
+
+<li>Switch</li> :
+  If we have multiple conditions then we used switch statements
+</ul>
+
+Question 1 :
+"If we have to check whether a number is positive or not"
+
+
+let num = 23;
+if(num > 0){
+  console.log("The number is positive");
+}
+else {
+  console.log("The number is negative");
+}
