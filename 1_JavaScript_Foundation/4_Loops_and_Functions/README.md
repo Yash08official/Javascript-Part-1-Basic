@@ -49,8 +49,6 @@ else {
 console.log("Student have Failed");
 }
 
-<h1>Switch Statements </h1>
-
 It is used when there are multiple conditons
 
 let dayNumber = new Date().getDay();
@@ -99,6 +97,70 @@ console.log("Messgae :", msg);
 console.log("Day of the week is :", day);
 }
 
-
 <h1>Loops</h1>
 
+<ul>
+<li> For Loop</li>
+<li> For of</li>
+<li> For in</li>
+<li> do while</li>
+<li> While</li>
+</ul>
+
+<h3> For loop</h3>
+Syntax :
+
+for (statement1;statement2;statement3){
+//execute your code
+}
+
+Question 1 : I have to print number from 0 to 10
+
+for (let i=0;i<10 ;i++ ){
+console.log(i);
+}
+
+Used of for of loop
+
+const User = {Yash : 99, Virat : 100, Genius : 98}
+
+for (const key in User) {
+console.log(User[key]);
+}
+
+Used of for of loop
+
+const fruits = ["Guava", "Apple", "Banana", "Orange", "Mango"];
+
+for (const iterator of fruits) {
+console.log(iterator);
+}
+
+Used of while loop
+
+Syntax :
+
+while (Condition){
+//execute the code
+}
+
+let value = 0;
+while (value <=10){
+console.log(value);
+value++;
+}
+
+Used of do while loop
+
+Syntax :
+
+do {
+//execute the code
+}
+while ();
+
+let num =1;
+do {
+console.log(num)
+num++;
+}while(num <5);
