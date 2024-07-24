@@ -244,3 +244,5 @@ let name = "Hello world"; // This ("let name") is a local variable
 }
 
 hello();
+
+----------------END--------------------------------------
