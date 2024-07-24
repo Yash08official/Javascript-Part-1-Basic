@@ -164,3 +164,83 @@ do {
 console.log(num)
 num++;
 }while(num <5);
+
+<h3> Functions</h3>
+
+Functions is bascially a piece or a block of code which is used to perform some particular task
+
+A piece of code and you want to write functions is you have to used the "function" keyword which is present into a javascript to declare any functions then you have to give the name to the functions
+
+Let say i am writing a functions of some of two numbers, if I have to do some of two numbers, I am creating a functions which is a block of code which can used to always sum of two numbers so the basic syntax of writing a functions in JAvascript
+
+Inside ::-> () this you can take some parameters means some values you can take inside this function
+
+and function will return something
+
+Return ::-> It is an another keyword, any functions can return any result
+
+function \_functionName(){
+//block of code (Basic finction Syntax)
+}
+function sum(num1,num2){
+//block of code (Basic finction Syntax)
+
+return num1 + num2
+}
+
+Functions : Piece of code perform some tasks, which design to perform some tasks
+
+Now How the functions executed ::->
+
+You will have to call this function or invoke this function
+
+If I have to invoke this function
+
+Now function takes values num1 and num2
+
+function sum(num1,num2){
+
+return num1 + num2
+}
+
+sum (2,5);
+
+sum (2,5) in which 2,5 are called as argumnets which are passed to this functions
+
+So when I am writing "Sum" I am calling the function SUM and inside the this function for two variables num1 and num2 I am passing the value 2 and 5
+
+When I appsed the value 2 and 5 it will come to return where he see num1 + num2 so basically 2+5 which is 7 and it will return the result so that result we have to put it in some variable so we crate varable called result
+
+const result = sum(2,5);
+
+It will return inside this local variable ane we can display the result
+console.log("Result" , result);
+
+It can be resused again and again
+
+const result2 = sum(23,5);
+console.log("Result" , result2);
+
+"Functions where you declare a block of code with some tasks and that code can be reused again and again"
+
+If you declare any variable inside this function that will be the local variable for this functions
+
+Lets say Writing a simple function for writing "Hello World"
+
+function hello(){
+let name = "Hello world"; // This ("let name") is a local variable  
+ console.log(name);
+}
+
+We call it by putting a function name and paratheses
+
+hello();
+
+Its like
+
+function hello(){
+let name = "Hello world"; // This ("let name") is a local variable  
+ console.log(name);
+}
+
+hello();
