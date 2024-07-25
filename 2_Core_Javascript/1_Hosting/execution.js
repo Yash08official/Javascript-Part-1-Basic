@@ -13,3 +13,20 @@ var b; // declaring it later
 console.log("Value is :", c); // value is undefined
 var c = 10;
 console.log("Value is :", c); // Value will be 10
+// Output : undefined
+// Output : 10
+
+function greetings() {
+  console.log("Hello");
+} // Declared a function
+
+greetings(); // I call it after declaring it
+
+// Output : Hello
+
+named(); // I call it
+
+function named() {
+  console.log("World");
+} // Declared a function later after calling it
+// Output : World

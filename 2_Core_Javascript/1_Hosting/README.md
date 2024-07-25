@@ -91,3 +91,10 @@ var c = 10;
 console.log("Value is :", c);
 
 <h3>Function Hosting in Javascript </h3>
+
+Lets see what is function hosting
+Now, we understand the meaning of function hosting : "Hosting" we are able to access the variable or functions before even declaring it
+
+Similarily, lets try with functions
+
+function
