@@ -177,3 +177,19 @@ console.log(typeof(fullName)); // object
 
 console.log(newName == fullName); // true
 console.log(newName === fullName); // false : type is object
+
+<h2> String Method in JavaScript </h2>
+
+Strings are Immutable ::-> Original string are not changed
+
+<ul>
+<li>_stringName.length </li>
+<li>_stringName.replace </li>
+<li>_stringName.length </li>
+<li>_stringName.length </li>
+<li>_stringName.length </li>
+<li>_stringName.length </li>
+<li>_stringName.length </li>
+<li>_stringName.length </li>
+
+</ul>
