@@ -24,9 +24,23 @@ greetings(); // I call it after declaring it
 
 // Output : Hello
 
-named(); // I call it
+namede(); // I call it
 
-function named() {
-  console.log("World");
+function namede() {
+  console.log("World ::-> Declared a function later after calling it");
 } // Declared a function later after calling it
 // Output : World
+
+// REMEMBER :
+//Normal function declaration
+named1();
+function named1() {
+  console.log("World ::-> Using Normal function declaration");
+}
+
+//Function expression
+
+var named2 = () => {
+  console.log("World ::-> Using Function expression");
+};
+named2();

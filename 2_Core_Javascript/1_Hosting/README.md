@@ -97,4 +97,43 @@ Now, we understand the meaning of function hosting : "Hosting" we are able to ac
 
 Similarily, lets try with functions
 
-function
+function greetings() {
+console.log("Hello");
+} // Declared a function
+
+greetings(); // I call it after declaring it
+
+// Output : Hello
+
+named(); // I call it
+
+function named() {
+console.log("World");
+} // Declared a function later after calling it
+// Output : World
+
+// REMEMBER :
+//Normal function declaration
+named();
+function named() {
+console.log("World");
+}
+
+//Function expression
+named();
+var named = () => {
+console.log("World");
+};
+
+In Function expression, you are assigning a complete function to a variable (Wgen you assign a function to a variable)
+
+Now , How the HOSTING works in different cases :
+
+In Normal function declaration, we understand this is a function which  has been giventhe entire memory whenever I calling it even before declaring it its fine 
+But
+In Function expression, When this is in a variable that means this will be treated as a variable . So here variable hosting will work
+So,in memory allocation phase,"named" is assigned to the memory allocation phase, named will be givened value will be undefined
+
+In Function expression, You can call it after declaring it
+
+<h2> Strings in JavaScript </h2>
