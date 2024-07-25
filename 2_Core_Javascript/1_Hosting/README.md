@@ -129,7 +129,7 @@ In Function expression, you are assigning a complete function to a variable (Wge
 
 Now , How the HOSTING works in different cases :
 
-In Normal function declaration, we understand this is a function which  has been giventhe entire memory whenever I calling it even before declaring it its fine 
+In Normal function declaration, we understand this is a function which has been giventhe entire memory whenever I calling it even before declaring it its fine
 But
 In Function expression, When this is in a variable that means this will be treated as a variable . So here variable hosting will work
 So,in memory allocation phase,"named" is assigned to the memory allocation phase, named will be givened value will be undefined
@@ -137,3 +137,43 @@ So,in memory allocation phase,"named" is assigned to the memory allocation phase
 In Function expression, You can call it after declaring it
 
 <h2> Strings in JavaScript </h2>
+
+Strings : Strings are something which are enclosed in a double codes and single codes
+Basically a group of characters which is present inside / enclosed double codes
+let says
+
+let firstName = "Yash Wasankar";
+
+"Yash Wasankar" ::-> It is a string beacause it is enclosed in a double codes and this string can contain characters and it can also contain digits and also contain sopecial characters
+If I say console.log(typeOf(firstName));
+it gives output as String
+
+and also if i write
+
+let secondName = 'Prashant Wasankar'; // This is also a string
+console.log(typeof(secondName));
+
+it gives output as String
+
+also
+
+let sentence = "My name is Yash Wasankar";
+console.log((sentence));
+console.log(sentence.length);
+
+let words = 'It\'s alright';
+console.log(words);
+console.log(words.length);
+
+let newName = ("Name = Yash Wasankar");
+console.log(newName);
+console.log(typeof(newName)); // String
+
+Strings as an Object
+
+let fullName = new String ("Name : Yash Wasankar");
+console.log(fullName);
+console.log(typeof(fullName)); // object
+
+console.log(newName == fullName); // true
+console.log(newName === fullName); // false : type is object
