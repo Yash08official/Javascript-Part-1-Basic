@@ -29,13 +29,12 @@ Then you have a function Sum and all the details of this function will be putted
 
 So , in the memory allocation phase,for the piece of code memory allocated not the value is allocated
 
-
 <h4> Code Execution </h4>
 
-When we start executing this codeit execute line by line, So first top line will be executed 
+When we start executing this codeit execute line by line, So first top line will be executed
 
 It says , Var X = 10 that means now it will execute this statement X=10
-so in the memeory the memory is provided the value of X is undefined Bascially space was provided in the memory for value of X and the value of undefined and now undefined will br removed and the value of 10 will come Then we have this function return that is already present in the memory then we have Var result is equals to  SUM 2 and 3 basically
+so in the memeory the memory is provided the value of X is undefined Bascially space was provided in the memory for value of X and the value of undefined and now undefined will br removed and the value of 10 will come Then we have this function return that is already present in the memory then we have Var result is equals to SUM 2 and 3 basically
 
 Now we are calling this function SUM with values 2 and 3 Since I am calling this function with value of 2 and 3 and then it will return 2 + 3 which is equivalant to five
 
@@ -43,7 +42,6 @@ When we are calling this function inside this execution context another executio
 
 If you see in this function , we dont have any variable so atleast no memory is required
 Only execution will happen a + b equals 5 and then it will moved inside this result
-
 
 So , In the result we will get the value 5 and the undefined will be replaced with 5 and last it will execute console.log result and then the result will be printd
 
@@ -53,13 +51,43 @@ THIS IS HOW EXECUTION CONTEXT GET CREATED
 
 THIS IS A GLOBAL EXECUTION CONTEXT
 
-When this execution gets created , we also have a "Call Stack" 
+When this execution gets created , we also have a "Call Stack"
 
 In the Call stack there is a GLOBAL EXECUTION CONTEXT now whenever a function called a local execution execution context gets created for that function
 
-as soon as get gets executed it gets removed from stack or will be popped out and similary there are more functions comming here one by one and then  they will be executed and they will be removed from the stack and at last global execution context gets executed completely
+as soon as get gets executed it gets removed from stack or will be popped out and similary there are more functions comming here one by one and then they will be executed and they will be removed from the stack and at last global execution context gets executed completely
 
 "THIS IS HOW JAVASCRIPT EXECUTE AND JAVASCRIPT WORKS" any code you run in JS memory allocation is done and the code execution is done
 
-
 <h3>Variable Hosting in Javascript </h3>
+ 
+Variable Hosting ::->
+      Every code inside JavaScript runs in an execution context
+
+If I say , I have a variable
+
+var a ; // I ony declare it not give the value
+console.log(a) // I want to print the value of the variable
+
+So what will be the output
+
+As we earlier, our code is go to the execution context in it firslty the memory will be allocated variable A and the value of undefined will be assigned to it
+
+when code execution starts , It eecute line one bt one it will see Var a ; nothing to execute memory is already allocated and then console.log (a); It will check in the memory the values is "Undefined" and it will print the value ::-> UNDEFINED
+
+Able to access variable before even declaring
+console.log("Value is :",b); // Access variable first
+var b; // declaring it later
+
+Now , at this time
+Before declaring I am trying to access this variable  
+Output is ::-> Inside JS you can do it.(Using VAR)
+Memory allocated to the variable Var A and code execution happens in phase 2 that means when line starts executing this varible already has a memory and it has value of undefined so it will no throw error in that case
+
+Now lets say you assign any value to the variable and then you have to print the variable value of this variable then output will be
+
+console.log("Value is :", c);
+var c = 10;
+console.log("Value is :", c);
+
+<h3>Function Hosting in Javascript </h3>
