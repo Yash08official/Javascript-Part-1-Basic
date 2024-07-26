@@ -184,12 +184,16 @@ Strings are Immutable ::-> Original string are not changed
 
 <ul>
 <li>_stringName.length </li>
-<li>_stringName.replace </li>
-<li>_stringName.length </li>
-<li>_stringName.length </li>
-<li>_stringName.length </li>
-<li>_stringName.length </li>
-<li>_stringName.length </li>
-<li>_stringName.length </li>
+<li>_stringName.replace() </li>
+<li>_stringName.replaceAll() </li>
+<li>_stringName.split() </li>
+<li>_stringName.trim() </li>
+<li>_stringName.trimStart() </li>
+<li>_stringName.trimEnd()</li>
+<li>_stringName.concat() </li>
+<li>_stringName.concat() </li>
+<li>_stringName.concat() </li>
+<li>_stringName.concat() </li>
+<li>_stringName.concat() </li>
 
 </ul>
