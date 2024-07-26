@@ -25,7 +25,13 @@ let input = "code";
 let output = reverseString(input);
 console.log("Output is :", output); // Output: 'edoc'
 
-// OR
+
+// Write a simple function that returns a boolean(i.e True or False) indicating whether or not a string is a Palindrome.
+// For example :
+
+// Input: racecar
+
+// Output: true
 
 function isPalindrome(str) {
   // Convert the string to lowercase
