@@ -29,7 +29,7 @@ let say, I am declaring the varuable inside the curly braces (block)
 }
 ```
 
-The varaible which a have declare inside block is only accessible inside this block, you cannot access this varaible outside the block. You will get the output when you write it in a block and write
+The variable which a have declare inside block is only accessible inside this block, you cannot access this variable outside the block. You will get the output when you write it in a block and write
 
 ```
 console.log("Declare using LET keyword :",x);
@@ -74,3 +74,100 @@ console.log("Declare using \"VAR\" keyword :", e)
 <imp> Any variable declare using let keyword they cannot be re-declared, but you can re-intailized it.You can re-declare in the inner-scope bracause that thome they are seperate </imp>
 
 <em> Any variable declare using var keyword they can be declared </em>
+
+<br>
+
+<h2> Const Keyword </h2>
+
+Similar to LET ,"Const" is also a block scope variable that maens,
+
+```
+{
+  const er = 10;
+  console.log("Variable output using \"CONST\" is :",er);
+}
+```
+
+but I cannot access this variable outside like
+
+```
+{
+  const er = 10;
+}
+console.log("Variable output using \"CONST\" is :",er);
+```
+
+<em> Any variable declare using "Const" keyword also they cannot be re-declared and also cannot be re-intialized </em>
+
+like
+
+```
+const awe = 110;
+
+awe = 1212;
+{
+  let aw = 110;
+  console.log('Variable output using "CONST" is :', aw);
+}
+console.log('Variable output using "CONST" is :', awe);
+// output : TypeError: Assignment to constant variable.
+```
+
+In let , you can declare varaible like
+
+```
+let a ;
+a = 23;
+```
+
+but in case of Const
+you cannot do it like this,
+
+```
+const b ; // It will say : 'const' declarations must be initialized "#always".
+b = 23;
+```
+
+Whenever you are trying to create a object or array you should always used const
+suppose , i am declaring any array
+let say,
+
+```
+const fruits = ["Mango", "Orange", "Apple", "Bananna"]
+// const keyword used to point unique reference
+```
+
+I have like this and now I want to change or upadte any value inside this array so that I can do,but you will say this is a const value so "Const" refers to a unique reference
+
+Lets say you can change it like
+
+```
+fruits [0] = ["Guava"];
+```
+
+but whenever you are trying to create array same like
+
+```
+fruit[] = [....];
+Output : TypeError: Assignment to constatnt variable
+```
+
+it will show the error
+
+
+You an declare objects also
+
+```
+const student = {
+  firstName : "Yash",
+  middleName: "Prashant",
+  lastName: "Wasankar",
+};
+console.log(student);
+```
+You can update the object also
+
+```
+student.hobby = "Cricket";
+console.log(student);
+```

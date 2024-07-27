@@ -21,3 +21,4 @@ console.log('Declare using "VAR" keyword :', z);
   console.log('Declare using "LET" keyword :', d);
 }
 console.log('Declare using "VAR" keyword :', e);
+
