@@ -172,7 +172,7 @@ student.hobby = "Cricket";
 console.log(student);
 ```
 
-<h2> Teemporal Dead Zone </h2>
+<h2> Temporal Dead Zone </h2>
 
 <em>Are the "let" and "const" variables are hoisted ? </em>
 
