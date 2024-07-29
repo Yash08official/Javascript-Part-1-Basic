@@ -154,7 +154,6 @@ Output : TypeError: Assignment to constatnt variable
 
 it will show the error
 
-
 You an declare objects also
 
 ```
@@ -165,6 +164,7 @@ const student = {
 };
 console.log(student);
 ```
+
 You can update the object also
 
 ```
@@ -172,4 +172,35 @@ student.hobby = "Cricket";
 console.log(student);
 ```
 
-END
+<h2> Teemporal Dead Zone </h2>
+
+<em>Are the "let" and "const" variables are hoisted ? </em>
+
+Yes, the varaibles let & const are hoisted in a special way
+
+There is a difference between hoisting in Var and let
+
+If I do
+
+```
+console.log(a);
+var a =10;
+```
+
+We know that we can access this varaible even though we are declaring and intiaizing it later,so the output of this variable is "undefined"
+
+So that means , this varaible is hoisted and it has allocated a memory before-hand
+and even the value is undefined,which we can access
+
+If I try to do same thing using "let" variable
+
+```
+console.log(a);
+let a =10;
+```
+
+But in this case, we get an error that Reference error : Cannot access variable before intailization
+
+Because , any variable which are declared using let and const you can used after intialization
+
+
