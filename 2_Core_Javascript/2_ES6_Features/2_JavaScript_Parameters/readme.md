@@ -142,3 +142,9 @@ so,
 // Whatever the name of the function you were put it in a variable and then you will put an arrow and then you can directly put as a+b
 const sum = (a,b) => a + b
 ```
+
+<h3>String Templates (Literals) </h3>
+
+You can declare your strings in backtics ("`")
+
+let institute = "Yash" or `Yash` bot are true
