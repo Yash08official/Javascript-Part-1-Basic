@@ -116,3 +116,29 @@ return sum;
 }
 const result1 = sumOfAllNumbers(1, 2, 3, 4, 5); // You are collecting it
 console.log("result is", result1);
+
+<h3>Arrow Function</h3>
+
+It is introduced in ES6
+They are the shorter forms of writing any functions
+
+Before ES6, we write in ES5 a function like this,
+
+```
+function sum(a,b){
+  return a + b;
+}
+```
+
+when ES6 came,
+
+They intoduced arrow function
+It means ypu are assigning a function to a variable like I want to write (upper) same function as arrow function
+
+So, you should always used const when you are trying to declare a arrow function beacause function is always a const value so we should always used const here
+so,
+
+```
+// Whatever the name of the function you were put it in a variable and then you will put an arrow and then you can directly put as a+b
+const sum = (a,b) => a + b
+```
