@@ -77,11 +77,47 @@ function x() {
 
 }
 
-// whenever you are assigning are a function to variable it is called as function expression
-//suppose you are assigning a function to a variable like this
+whenever you are assigning are a function to variable it is called as function expression
+suppose you are assigning a function to a variable like this
 
 var a = function(){
 
 }
 
 <em> Anonymous function can only be declare in function expression they cannot be declare in function statement </em>
+
+<h3>Named function expression </h3>
+
+function expression like this
+
+```
+var a = function () {
+
+};
+```
+
+now if I give a named to it like
+
+```
+var a = function abc(){
+
+}
+```
+
+Inside javascript we can used it
+
+Now, named function expression
+That we are assigning a function to a variable but you also having a seperate name of that function like this
+
+```
+var a = function abc(){
+
+}
+```
+
+lets say I am having a function like this
+
+var a = function abc(){
+  console.log("abc is afunction:",a);
+}
+
