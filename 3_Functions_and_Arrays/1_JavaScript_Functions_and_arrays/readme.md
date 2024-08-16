@@ -4,7 +4,7 @@
 
 Functions : It is a small piece of code , which is doing some functionality and that code can be reused again and again
 
-And we declare functions in javascript using Function keyword, name of the function , paraenteses and closing that function
+And we declare functions in javascript using Function keyword, name of the function , parentheses and closing that function
 
 Now, Here
 
@@ -27,12 +27,12 @@ function y() {
 
 In this,
 
-we are declare the variable "z" golbally
+we are declare the variable "z" globally
 then we invoke x() and invoke y() function
 then I am printing the value of "z"
 
 after that
-we have function "X" and in this we declare the varaible z and print the value of z
+we have function "X" and in this we declare the variable z and print the value of z
 then next
 we have function "Y" and in this we declare the variable z and print the value z
 
@@ -42,10 +42,10 @@ whenever the javascript course runs abd then the "execution context" get created
 In this ,lets first assume the output of the variable then there you see first how this code start executing and then it will call function "X" when it will call the function X
 it will render to the z = 20; and then after that print the value of the "Z"
 
-then it will call function "Y" when it will call function "Y" it willrender to the z=30;
+then it will call function "Y" when it will call function "Y" it will render to the z=30;
 and then after that the value of the "Z" is printed
 
-lastly it will print value of the varaible "Z" whic was declare globally
+lastly it will print value of the variable "Z" which was declare globally
 
 ```
 Output :
@@ -59,9 +59,9 @@ we will debugging it in chrome browser
 
 <h3> Anonymous function </h3>
 
-Any function which is not having any name is called as anonmyous function
+Any function which is not having any name is called as anonymous function
 
-If I declare a function without any name this is anonmyous like as follows :
+If I declare a function without any name this is anonymous like as follows :
 
 ```
 function (){
@@ -107,7 +107,7 @@ var a = function abc(){
 Inside javascript we can used it
 
 Now, named function expression
-That we are assigning a function to a variable but you also having a seperate name of that function like this
+That we are assigning a function to a variable but you also having a separate name of that function like this
 
 ```
 var a = function abc(){
@@ -118,6 +118,6 @@ var a = function abc(){
 lets say I am having a function like this
 
 var a = function abc(){
-  console.log("abc is afunction:",a);
+  console.log("abc is a function:",a);
 }
 
