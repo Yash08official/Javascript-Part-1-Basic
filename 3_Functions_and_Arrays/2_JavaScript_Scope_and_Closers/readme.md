@@ -1,0 +1,1 @@
+ ### JavaScript Scope and Closures part
