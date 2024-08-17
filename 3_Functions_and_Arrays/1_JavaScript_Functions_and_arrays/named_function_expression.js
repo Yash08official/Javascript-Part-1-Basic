@@ -8,7 +8,7 @@
 // Inside javascript we can used it
 
 // Now, named function expression
-// That we are assigning a function to a variable but you also having a seperate name of that function like this
+// That we are assigning a function to a variable but you also having a separate name of that function like this
 
 // var a = function abc() {};
 //lets say I am having a function like this

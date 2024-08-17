@@ -25,7 +25,7 @@ const func = y(x);
 func();
 
 // a function :
-// You can pass a function as a value
+// You can pass a function as a value in it
 // You can used a function as a value
 //You can pass one function inside another function
 // You can also return a function from a function

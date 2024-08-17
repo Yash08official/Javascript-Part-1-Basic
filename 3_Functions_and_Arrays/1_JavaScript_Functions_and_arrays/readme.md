@@ -37,7 +37,7 @@ then next
 we have function "Y" and in this we declare the variable z and print the value z
 
 So , in the execution context
-whenever the javascript course runs abd then the "execution context" get created so it will also created in this also
+whenever the javascript code runs and then the "execution context" get created so it will also created in this also
 
 In this ,lets first assume the output of the variable then there you see first how this code start executing and then it will call function "X" when it will call the function X
 it will render to the z = 20; and then after that print the value of the "Z"
