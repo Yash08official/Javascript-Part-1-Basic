@@ -20,6 +20,7 @@ function checkAge(age) {
     console.log("The person is not adult");
   }
 }
+
 checkAge(12);
 
 // Let say we have an array of ages
