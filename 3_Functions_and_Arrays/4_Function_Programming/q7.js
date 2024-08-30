@@ -17,5 +17,6 @@ const negNum =arr.find(
 	      else{
 	          console.log(arr);
 	      }
-	  }      
+}      
+      
 console.log(findNegative(Array));
