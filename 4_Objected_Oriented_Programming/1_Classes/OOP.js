@@ -12,7 +12,8 @@
 // Classes :
 // Javascript introduced class syntax in ES6
 // Classes are syntactic sugar over prototypes (Javascript is basically prototype based languages)
-// Javascript basically follows objects and prototypes and classes like syntactic sugar why because people come from languages like c++ , java
+// Javascript basically follows objects and prototypes and classes like syntactic sugar why because people 
+//come from languages like c++, java
 //  so , it just to make them feel comfortable. classes was introduced into ES6
 // It provide structure way to work with prototypes
 
@@ -41,17 +42,37 @@ class person {
 
 // You have a class and you are creating a sub class which takes all the properties of the parent class
 
-// Javascript supports inheritance through the use of prototypes but in case of classes also you can create a subclass
+// Javascript supports inheritance through the use of prototypes but in case of classes also you
+// can create a subclass
 //which will take all the properties and methods from a super class
 
 class students extends person {
     constructor(name, age, grade) {
-        this.name = name;
-        this.age = age;
+        super(name, age);
         this.grade = grade;
     }
 
-    greet() {
+    study() {
         console.log(` ${this.name} is studying`);
     }
 }
+
+// Encapsulation :
+
+// Now, we are see we are putting all the properties functions,methods in one single class,
+// So this is called as encapsulation
+// Inside objects also we can keep all the properties and method together
+// It hide internal state of an object
+// Only necessary functionality is exposed through methods
+
+// Polymorphism :
+
+// When you treat a class ,  let say you treat a person class , now there can be many person who
+// used that class , You can create multiple objects for that class
+// When you can create multiple objects as instances of a class this called this is called as polymorphism
+// So, JavaScript supports polymorphism both through class and through prototype based model
+// That means you can create multiple instances of the same class
+
+// This is about object oriented programming where you used objects and classes to structure your code
+// It also supports inheritance, it has polymorphism , encapsulation and all these properties
+
