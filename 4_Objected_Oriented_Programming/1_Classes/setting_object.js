@@ -36,5 +36,10 @@ logProperty("age");
 // then you can say
 user["lastname"]["first"] = "Alice";
 // In simple way you can write it as
- user.lastname.first = "AliceNew";
+ user.lastname.first = "Alice_New";
 console.log(user.lastname.first);
+
+// Let say You want to update the age
+
+user.age = "15";
+console.log(user.age);
