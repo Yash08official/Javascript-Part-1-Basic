@@ -43,3 +43,18 @@ console.log(user.lastname.first);
 
 user.age = "15";
 console.log(user.age);
+
+// You are not only update the properties but also create the new properties
+
+user.hobbies = ["listening", "Playing", "Drawing"];
+console.log(user.hobbies);
+console.log(user);
+
+// You can also add functions also like
+
+user.farewell = function () {
+  console.log("good bye");
+}
+
+user.farewell();
+console.log(user);
