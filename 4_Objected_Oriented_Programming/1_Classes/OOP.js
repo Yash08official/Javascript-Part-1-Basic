@@ -1,4 +1,5 @@
 // JavaScript uses objects and classes to structure the code
+// OOPS is a instance of a class , It represent a specific entity with its own unique state (properties) and behavior(methods)
 
 //Objects :
 //In everything inside javascript , including functions and arrays
