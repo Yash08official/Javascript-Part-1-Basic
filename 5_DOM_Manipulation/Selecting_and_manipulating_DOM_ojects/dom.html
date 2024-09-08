@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Learning DOM manipulation</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, voluptate,
+        minus consectetur accusamus et at nihil soluta ab amet mollitia velit
+        necessitatibus harum molestiae enim ipsa eius cupiditate, reprehenderit
+        non./p>
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia
+        sequi est minus nihil eaque atque natus enim omnis amet vero, nostrum
+        placeat, accusantium praesentium laborum minima modi, corporis totam?
+      </p>
+
+      <!-- Lets say we have to write I have to manipulate this elements so , we will write 
+       some javaScript code in order to find this elements -->
+
+      <script>
+        // You can find the elements on the webpage "id" of the element and you can also find element using "class" of the element
+        // using tag names and using css selectors
+
+        // let say I want to find the "root node"
+
+        // so I will have to access any node using document, document is the root node which is present inside browser
+        // So, using this document I access any node let say I want to access node where id is "root"
+
+        // document has lot of methods inside it and one of the method is "getElementById" so, this is the function which
+        // is present on document object
+        // you get any element which is having this ID of route and you can provide the ID name their
+        const rootNode = document.getElementById("root");
+        // it finds in entire document where ID is root and it will give that node here and if note find it will null
+        // lets console this
+        console.log(rootNode);
+
+        // you can also find elements using tagNames so, lets say I want to find the elements which is like a paragraph
+        // with a p tag so I can say
+
+        const paragraphs = document.getElementsByTagName("p");
+        console.log(paragraphs);
+
+        const h1tags = document.getElementsByTagName("h1");
+        console.log(h1tags);
+      </script>
+    </div>
+  </body>
+</html>
