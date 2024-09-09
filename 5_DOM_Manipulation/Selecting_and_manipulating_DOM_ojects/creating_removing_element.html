@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="Parent1">
+      <p id = "existPara">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit
+        adipisci eveniet odio. Doloribus ratione deleniti illo enim, officiis
+        minima commodi necessitatibus quasi voluptates? Necessitatibus placeat
+        asperiores iste repudiandae harum!
+      </p>
+    </div>
+
+    <script>
+        // let say i want to create a new paragraph and i want to append or put that paragraph inside the 
+        // parent div so how we can do it using javaScript
+
+        // let say i want to create another paragraph
+        //first we have to access document object
+       const varaibleNew = document.createElement("p");
+       //now i want to write some text so i write
+       varaibleNew.innerHTML = "I added some text in it ";
+       // now I want to put the paragraph in the parent dov as their child
+       // I will take this parent di in js code
+
+       const gotParentId = document.getElementById("Parent1");
+       // now i want to put this paragraph which I have added
+        //here we wil used method "appendchild()"
+
+        gotParentId.appendChild(varaibleNew);
+        // It is a method which is used to add a child to a parent
+
+        // you also add it before also
+
+        // you have function called "insertBefore"
+        //where you have to give the id of the existing paragraph
+        // first I will take this paragraph
+
+        const existParagraph = document.getElementById("existPara");
+        gotParentId.insertBefore(varaibleNew,existParagraph);
+
+        // now you see that it will added before it
+
+        // this is how you insert element, add new element and also update any element
+        // now let say you want to remove any element
+
+        // let say you create element as "existParagraph" and remove it then
+
+        existParagraph.remove();
+
+        // now you will see that the existing paragraph is removed
+
+    </script>
+  </body>
+</html>
