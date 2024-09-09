@@ -7,14 +7,14 @@
   </head>
   <body>
     <div id="root">
-      <h1>Learning DOM manipulation</h1>
+      <h1 class="headerClass">Learning DOM manipulation</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, voluptate,
         minus consectetur accusamus et at nihil soluta ab amet mollitia velit
         necessitatibus harum molestiae enim ipsa eius cupiditate, reprehenderit
         non./p>
       </p>
-      <p>
+      <p class="headerClass">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia
         sequi est minus nihil eaque atque natus enim omnis amet vero, nostrum
         placeat, accusantium praesentium laborum minima modi, corporis totam?
@@ -48,6 +48,15 @@
 
         const h1tags = document.getElementsByTagName("h1");
         console.log(h1tags);
+
+        const headerClass = document.getElementsByClassName("headerClass");
+        console.log(headerClass);
+
+        const element = document.querySelector(".headerClass");
+        console.log(element);
+
+        const allElement = document.querySelectorAll(".headerClass");
+        console.log(allElement);
       </script>
     </div>
   </body>
