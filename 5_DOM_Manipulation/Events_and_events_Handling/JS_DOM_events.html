@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Dom events</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>JavaScript DOM events</h1>
+
+      <!-- when you see a webpage , you can perform some events on the webpage -->
+
+      <!-- let you want to do some events and the event is occurring and you want 
+         to do some changed on those events , you used javaScript to do that -->
+
+      <!-- let see how, suppose we have a button here -->
+      <button id="btn" onclick="changedBackgroundColor()">Submit</button>
+      <!-- now when I clicked on the button I want to changed some background color of my webpage -->
+      <!-- I add  event "onclick" and call javascript function-->
+    </div>
+
+    <div id="wel" style="width: 220px; height: 220px; border: 2px solid black">
+      Welcome
+    </div>
+    <!-- now when i hover over this i want to changed this text "welcome" to "thank you" -->
+
+    <script>
+      // creating function to call it
+      function changedBackgroundColor() {
+        // when I say changed background color I will have to take the body
+        // element and then I will changed the color, so i will write it as
+
+        document.querySelector("body").style.backgroundColor = "red";
+
+        // se create a button then we have added a event to this button and we are saying
+        // whenever we are click on this button you call this function
+
+        // so the function takes the entire body as document and it changing its background color to red
+      }
+
+      // I did this for changed the text ::->
+      document.getElementById("wel").onmouseover = changedText;
+      document.getElementById("wel").onmouseout = revertText;
+
+      function changedText() {
+        document.getElementById("wel").innerHTML = "Thank you";
+      }
+
+      function revertText(){
+        document.getElementById("wel").innerHTML = "welcome";
+      }
+    </script>
+
+    <!-- 6.50 -->
+  </body>
+</html>
