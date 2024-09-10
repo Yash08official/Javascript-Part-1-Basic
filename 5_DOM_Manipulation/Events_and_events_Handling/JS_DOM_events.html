@@ -25,6 +25,9 @@
     </div>
     <!-- now when i hover over this i want to changed this text "welcome" to "thank you" -->
 
+    <input id="input-btn" type="text" onchange="uppercaseFun()">
+    <!-- whenever i am doing some change in text convert it into uppercase -->
+
     <script>
       // creating function to call it
       function changedBackgroundColor() {
@@ -50,8 +53,18 @@
       function revertText(){
         document.getElementById("wel").innerHTML = "welcome";
       }
+
+      // convert it into uppercase
+      function uppercaseFun(){
+        const inputTag = document.querySelector("input");
+        inputTag.value = inputTag.value.toUpperCase();
+      }
+      // its take the input and convert it into uppercase
+
     </script>
 
-    <!-- 6.50 -->
+    <!-- Like this you handle multiple events in javascript -->
+
+
   </body>
 </html>
