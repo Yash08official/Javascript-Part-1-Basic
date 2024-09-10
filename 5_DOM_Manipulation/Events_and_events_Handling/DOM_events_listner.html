@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event listener</title>
+  </head>
+  <body>
+    <div id="root">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat
+        illo alias. Velit eos minus voluptatum ducimus rerum nostrum, ratione
+        obcaecati voluptates. Tempora explicabo, perferendis magnam quae
+        repellat ad distinctio!
+      </p>
+      <button>Reset</button>
+    </div>
+
+    <script>
+      // we can add inside JavaScript , you can attach any element to any html element
+      // and you also used method called add "event listener" method
+
+      // so i want to attach a click event to this paragraph so , i can simply do it inside javascript
+
+      document
+        .querySelector("p")
+        .addEventListener("click", function callingFunction() {
+          document.querySelector("body").style.backgroundColor = "red";
+        });
+
+      // by using eventListener you can add this event multiple times
+      document.querySelector("p").addEventListener("click", function () {
+        document.querySelector("p").innerHTML = "Multiple events";
+      });
+
+      document
+        .querySelector("p")
+        .addEventListener("mouseover", mouseOverFunction);
+
+      function mouseOverFunction() {
+        document.querySelector("p").innerHTML = "Mouse Over";
+      }
+      // apart from adding it you also have option of removing it
+      // let say you have a button here
+
+      document.querySelector("button").addEventListener("click", function () {
+        document
+          .querySelector("p")
+          .removeEventListener("mouseover", mouseOverFunction);
+      });
+
+      window.addEventListener ("resize", setText);
+
+      function setText(){
+        document.querySelector("button").innerHTML = "Window";
+      }
+    </script>
+  </body>
+</html>
