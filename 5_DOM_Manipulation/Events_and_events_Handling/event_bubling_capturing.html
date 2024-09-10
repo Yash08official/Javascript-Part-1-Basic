@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event bubbling and capturing</title>
+  </head>
+  <body>
+    <div id="id1">
+      <h1>Event Bubbling</h1>
+      <p id="para1" style="border: 2px solid black">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptate
+        incidunt totam ut? Voluptatem voluptates, doloribus repellendus nesciunt
+        eaque nostrum quisquam libero architecto id harum ea animi optio fugiat
+        consequuntur.
+      </p>
+    </div>
+    <!-- You have a div and inside thi you have a paragraph , if the event is occurring on this paragraph
+    in which order the event will be handled because this paragraph is present inside this div
+    and if you click something there which event handling first that is called as "event propagation" -->
+
+    <!-- Now inside this you have two ways one is event bubbling and event capturing -->
+
+    <!-- In event bubbling : the inner element event handled first and then the outer element 
+     event let see how -->
+
+    <div id="id2">
+      <h1>Event capturing</h1>
+      <p id="para2" style="border: 2px solid black;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore
+        quaerat nihil sequi magni, aliquid, aliquam corporis libero
+        necessitatibus, aperiam minus illum enim fugiat maiores vero nisi!
+        Suscipit, qui recusandae.
+      </p>
+    </div>
+
+    <script>
+      //let me add the event listener
+
+      document.getElementById("id1").addEventListener(
+        "click",
+        function () {
+          alert("Ohh!! Outer element is clicked  ????");
+        },
+        false
+      );
+
+      document.querySelector("para1").addEventListener(
+        "click",
+        function () {
+          alert("Inner element is clicked bro come on ????");
+        },
+        false
+      );
+
+
+
+      
+      document.getElementById("id2").addEventListener(
+        "click",
+        function () {
+          alert("Ohh!! Outer element is clicked  ????");
+        },
+        true
+      );
+
+      document.querySelector("para2").addEventListener(
+        "click",
+        function () {
+          alert("Inner element is clicked bro come on ????");
+        },
+        true
+      );
+    </script>
+  </body>
+</html>
