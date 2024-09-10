@@ -6,9 +6,10 @@
     <title>Event bubbling and capturing</title>
   </head>
   <body>
-    <div id="id1">
+    <div id="id1" style="width: 400px; border: 2px solid red; text-align : center">
       <h1>Event Bubbling</h1>
-      <p id="para1" style="border: 2px solid black">
+      <p id="para1" style="border: 2px solid black; background-color:rgb(233, 122, 94);
+      width : 250px; height: 250px; align-items:center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptate
         incidunt totam ut? Voluptatem voluptates, doloribus repellendus nesciunt
         eaque nostrum quisquam libero architecto id harum ea animi optio fugiat
@@ -21,12 +22,13 @@
 
     <!-- Now inside this you have two ways one is event bubbling and event capturing -->
 
-    <!-- In event bubbling : the inner element event handled first and then the outer element 
+    <!-- In event bubbling : "the inner element event handled first" and then the outer element 
      event let see how -->
 
-    <div id="id2">
+    <div id="id2" style="width: 400px; border: 2px solid red; text-align : center">
       <h1>Event capturing</h1>
-      <p id="para2" style="border: 2px solid black;">
+      <p id="para2" style="border: 2px solid black; background-color:powderblue;
+       width : 250px; height: 250px; align-items:center ">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum inventore
         quaerat nihil sequi magni, aliquid, aliquam corporis libero
         necessitatibus, aperiam minus illum enim fugiat maiores vero nisi!
@@ -41,11 +43,11 @@
         "click",
         function () {
           alert("Ohh!! Outer element is clicked  ????");
-        },
+        }, // this div is the outer element
         false
       );
 
-      document.querySelector("para1").addEventListener(
+      document.getElementById("para1").addEventListener( // we write for the inner paragraph
         "click",
         function () {
           alert("Inner element is clicked bro come on ????");
@@ -53,7 +55,9 @@
         false
       );
 
+// when you pass a "true" here and outer element is handled first . "True" means that you can capture
 
+// event capturing is opposite it capture outer first then inner
 
       
       document.getElementById("id2").addEventListener(
@@ -64,13 +68,16 @@
         true
       );
 
-      document.querySelector("para2").addEventListener(
+      document.getElementById("para2").addEventListener(
         "click",
         function () {
           alert("Inner element is clicked bro come on ????");
         },
         true
       );
+      // this is all about event bubbling and event capturing
     </script>
+
+    
   </body>
 </html>
