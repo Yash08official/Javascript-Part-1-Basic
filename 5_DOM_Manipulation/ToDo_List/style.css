@@ -1,0 +1,124 @@
+* {
+    background-color: #4f75ff;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease;
+  }
+  
+  .Container-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #77e4c8;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  
+  .input-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+  }
+  
+  input[type="text"] {
+    width: 860px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 12px 12px 12px;
+    margin-right: 6px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input[type="text"]:hover {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"]:focus {
+    border-color: #66d9ef;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .button-input {
+    width: 100px;
+    height: 35px;
+    margin-left: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(240, 79, 79, 0.918);
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-input:hover {
+    background-color: rgba(240, 79, 79, 0.7);
+  }
+  
+  .button-input:active {
+    background-color: rgba(240, 79, 79, 0.5);
+    transform: translateY(2px);
+  }
+  
+  /* added animation effect */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .todo-list {
+    animation: pulse 2s infinite;
+  }
+  
+  /* Media Queries */
+  
+  /* For screens smaller than 1200px */
+  @media (max-width: 1200px) {
+    input[type="text"] {
+      width: 700px;
+    }
+    .button-input {
+      width: 80px;
+    }
+  }
+  
+  /* For screens smaller than 992px */
+  @media (max-width: 992px) {
+    input[type="text"] {
+      width: 500px;
+    }
+    .button-input {
+      width: 60px;
+    }
+  }
+  
+  /* For screens smaller than 768px */
+  @media (max-width: 768px) {
+    input[type="text"] {
+      width: 300px;
+    }
+    .button-input {
+      width: 40px;
+    }
+  }
+  
+  /* For screens smaller than 480px */
+  @media (max-width: 480px) {
+    input[type="text"] {
+      width: 200px;
+    }
+    .button-input {
+      width: 30px;
+    }
+  }
