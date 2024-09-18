@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ToDo List</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
-    <!-- To Do list Project -->
-    <!-- Mini Project -->
-  </head>
-  <body>
-    <div class="Container-title w-full flex justify-center items-center mb-4 h-16  md:mb-6 lg:mb-8 shadow-md hover:shadow-lg">
-      <h1 class="text-3xl font-bold text-green-300 transition duration-300 ease-in-out hover:text-blue-500">To Do List</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-title">
+        <h1>To Do List</h1>
     </div>
-    <div class=" container w-full flex justify-center mx-4 md:mx-6 lg:mx-8">
-      <div class="input-col w-full flex justify-center items-center mb-4 md:mb-6 lg:mb-8">
-        <input type="text" class="textArea w-3/6 px-4 py-2 text-lg border border-gray-300 rounded transition duration-300 ease-in-out hover:border-blue-500 shadow-sm hover:shadow-md" placeholder="Write here " />
-        <button type="button" class="button-input w-32 h-10 ml-4 rounded cursor-pointer bg-red-500 transition duration-300 ease-in-out hover:bg-blue-500 hover:shadow-lg">Submit</button>
-      </div>
+    <div class="input-container">
+        <input type="text" placeholder="Write here" />
+        <button type="button">Submit</button>
     </div>
+    <div class="todo-list" id="todo"></div>
 
-    <div id="todo" class="todo-list animate-pulse md:animate-spin lg:animate-bounce shadow-md"></div>
-
-    <script src="script.js"></script>
-  </body>
+    <script>
+        // Add your JavaScript code here
+    </script>
+</body>
 </html>
