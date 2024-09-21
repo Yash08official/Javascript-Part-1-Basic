@@ -14,10 +14,18 @@ const thirdObj = fetch("https://dummyjson.com/posts/1").then((response) =>
   response.json()
 );
 
-Promise.all([firstObj, secondObj, thirdObj])
+// Promise.all([firstObj, secondObj, thirdObj])
+//   .then((responses) => {
+//     for (response of responses) {
+//       console.log(responses);
+//     }
+//   })
+//   .catch((error) => console.log(`Failed to fetch the ${error}`));
+
+// Promise,any now
+
+Promise.any([firstObj, secondObj, thirdObj])
   .then((responses) => {
-    for (response of responses) {
-      console.log(responses);
-    }
+    console.log(responses);
   })
-  .catch((error) => console.log(`Failed to fetch the ${error}`));
+  .catch((error) => console.log(`Failed to fetch ${error}`));
