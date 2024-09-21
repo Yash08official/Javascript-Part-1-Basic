@@ -26,7 +26,6 @@ function fetchUserData(success) {
         },2000)
     })
 }
-
 async function getUserData(success) {
     // Try to call fetchUserData with await
     // Catch and log the error if the request fails
