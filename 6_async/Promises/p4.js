@@ -30,7 +30,6 @@ function fetchData(success) {
         },2000);
     });
 }
-
 function processData(success) {
     // Call fetchData
     fetchData(success)
