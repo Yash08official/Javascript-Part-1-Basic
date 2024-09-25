@@ -109,5 +109,4 @@ If you would like to contribute to this repository, please feel free to submit a
 ## License
 
 This repository is licensed under the MIT License. See LICENSE for details.
-
 I hope this extended version helps! Let me know if you have any questions or need further assistance.
